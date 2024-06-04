@@ -6,8 +6,14 @@ Functions need to have the recipe of the Desired coffee, and a function to deter
 to the amount nedded
 */
 
-class CoffeMachine ();
-public $NumbrSelect="";
-public $InsertValue="";
+class CoffeMachine (){
+    public $nmbrSelected="";
+    public $insertValue="";
+    public $number = [1 , 2 , 3 , 4 , 5 , 6];
+    public $value = ;
 
+    public function SelectNmbr($Number){
+        
+    }
+}
 
