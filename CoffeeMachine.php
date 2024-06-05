@@ -6,21 +6,19 @@ Functions need to have the recipe of the Desired coffee, and a function to deter
 to the amount nedded
 */
 
-class CoffeMachine (){
-    public $numberTyped="";
-    public $insertValue="";
+class CoffeMachine {
     public $number = [
         1 => Espresso,
         2 => Cappuccino,
         3 => Macciato,
         4 => Irish,
         ];
-    public $value = ;
-    public $NumberSelected= isset($this->number[$this->numberTyped]);
-
-    public function SelectNumber($Number){
-
+    public function NumberSelect($number){
+        switch($number);
+        case 1:
+            
+    }
         
+
     }
 }
-
