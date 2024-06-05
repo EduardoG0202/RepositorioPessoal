@@ -7,12 +7,19 @@ to the amount nedded
 */
 
 class CoffeMachine (){
-    public $nmbrSelected="";
+    public $numberTyped="";
     public $insertValue="";
-    public $number = [1 , 2 , 3 , 4 , 5 , 6];
+    public $number = [
+        1 => Espresso,
+        2 => Cappuccino,
+        3 => Macciato,
+        4 => Irish,
+        ];
     public $value = ;
+    public $NumberSelected= isset($this->number[$this->numberTyped]);
 
-    public function SelectNmbr($Number){
+    public function SelectNumber($Number){
+
         
     }
 }
