@@ -7,18 +7,18 @@ to the amount nedded
 */
 
 class CoffeMachine {
-    public $number = [
-        1 => Espresso,
-        2 => Cappuccino,
-        3 => Macciato,
-        4 => Irish,
-        ];
-    public function NumberSelect($number){
-        switch($number);
-        case 1:
-            
-    }
-        
+    private $coffeeTypes = [];
 
+    public function __construct(){
+        $this->coffeeTypes=[
+            1 => 'Espresso',
+            2 => 'Cappuccino',
+            3 => 'Macciato',
+            4 => 'Irish',
+        ]   
+    }
+
+    public function callFunction($number){
+        $this->
     }
 }
